@@ -58,6 +58,7 @@ class App extends React.Component{
     return(
       <div className="app">
       <header>
+        <h1>What's the Plan?</h1>
         <form id="formelement" onSubmit={this.addTask}>
           <input type="text" placeholder="enter the task" value={this.state.presentTask.text} onChange={this.handleTask}></input>
           <button type="submit">Add</button>
