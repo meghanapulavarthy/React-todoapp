@@ -1,0 +1,28 @@
+.list{
+    width: 230px;
+    height: 49px;
+    background-color:magenta;
+    color:beige;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.list p{
+    margin-top: 10px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    margin-left: 260px;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100px;
+}
+
